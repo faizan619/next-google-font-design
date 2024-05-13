@@ -50,7 +50,7 @@ export default function Demo() {
         <h1 className="font-serif text-2xl uppercase">UpperCase Alphabet</h1>
         <div className="py-3 px-5 flex flex-wrap gap-5 text-4xl w-screen">
           {alphabet.map((i) => (
-            <span className="uppercase">{i}</span>
+            <span key={i} className="uppercase">{i}</span>
           ))}
         </div>
       </div>
@@ -59,7 +59,7 @@ export default function Demo() {
         <h1 className="font-serif text-2xl lowercase">LowerCase Alphabet</h1>
         <div className="py-3 px-5 flex flex-wrap gap-5 text-4xl w-screen">
           {alphabet.map((i) => (
-            <span className="lowercase">{i}</span>
+            <span key={i} className="lowercase">{i}</span>
           ))}
         </div>
       </div>
