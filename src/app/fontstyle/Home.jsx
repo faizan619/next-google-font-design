@@ -1,5 +1,6 @@
 "use client";
 import { fontName } from "@/app/style/font_variable";
+
 import { useRouter } from "next/navigation";
 
 export default function Home() {

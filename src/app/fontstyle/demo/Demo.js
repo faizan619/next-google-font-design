@@ -1,13 +1,24 @@
 "use client";
 // Demo.js
+import { useEffect, useState } from 'react';
 import { useSearchParams } from "next/navigation";
-import { fontName } from "@/app/style/font_variable";
 
 export default function Page() {
-  const searchParams = useSearchParams();
-  const font = searchParams.get("font");
 
-  const fontDetails = fontName[font];
+    const [searchParams, setSearchParams] = useSearchParams();
+    const [font, setFont] = useState(null);
+    const [fontDetails, setFontDetails] = useState(null);
+
+useEffect(() => {
+    const fontParam = searchParams.get('font');
+    if (fontParam) {
+      setFont(fontParam);
+      const fontDetails = font_variable[fontParam];
+      setFontDetails(fontDetails);
+    }
+  }, [searchParams]);
+
+
   const alphabet = [
     "a",
     "b",
