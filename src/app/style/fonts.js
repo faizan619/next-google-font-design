@@ -1,4 +1,4 @@
-import {
+import {ABeeZee,ADLaM_Display,Abel,Abhaya_Libre,Aboreto,Abril_Fatface,Abyssinica_SIL,Aclonica,Acme,Actor,Adamina,Agbalumo,Agdasima,Aguafina_Script,Akatab,Akaya_Kanadaka,Akronim,Aladin,Alata,Alatsi,Aldrich,Alef,Alegreya_Sans,Alex_Brush,Alfa_Slab_One,Alice,Alike,Alkalami,Alkatra,Allan,Allerta,Allison,Allura,Almarai,Almendra_Display,Amarante,Amatic_SC,Amiko,Amiri_Quran,Amita,Amaranth,Amiri,Amethysta,Anaheim,Andika,Angkor,Aoboshi_One,Arapey,Arbutus,Arbutus_Slab,Architects_Daughter,Are_You_Serious,Aref_Ruqaa,Arizonia,Armata,Arsenal,Artifika,Arvo,Arya,Asar,Asset,Asul,Athiti,Atkinson_Hyperlegible,Atma,Atomic_Age,Aubrey,Audiowide,Autour_One,Average,Average_Sans,  
   AR_One_Sans,
   Advent_Pro,
   Afacad,
@@ -29,6 +29,9 @@ import {
   Asap,
   Assistant,
   Azeret_Mono,
+} from "next/font/google";
+import {B612,Babylonica,Bacasime_Antique,Bad_Script,Bagel_Fat_One,Bahiana,Bahianita,Bai_Jamjuree,Bakbak_One,Balsamiq_Sans,Balthazar,Bangers,Barlow,Barlow_Condensed,Barriecito,Barrio,Basic,Baskervville,Battambang,Baumans,Bayon,Be_Vietnam_Pro,Beau_Rivage,Bebas_Neue,Belanosima,Belgrano,Bellefair,Belleza,Bellota,Bellota_Text,BenchNine,Benne,Bentham,Berkshire_Swash,Beth_Ellen,Bevan,BhuTuka_Expanded_One,Bigelow_Rules,Bigshot_One,Bilbo,BioRhyme,Birthstone,Birthstone_Bounce,Biryani,Black_And_White_Picture,Black_Han_Sans,Black_Ops_One,Blaka,Blaka_Hollow,Blaka_Ink,Blinker,Bokor,Bona_Nova,Bonbon,Bonheur_Royale,Boogaloo,Borel,Bowlby_One,Braah_One,Brawler,Bree_Serif,Bricolage_Grotesque,Bruno_Ace,Bruno_Ace_SC,Bubblegum_Sans,Bubbler_One,Buda,Buenard,Bungee,Bungee_Hairline,Butcherman,Butterfly_Kids} from "next/font/google"
+import {
   Ballet,
   Baloo_2,
   Baloo_Bhai_2,
@@ -269,8 +272,6 @@ import {
   Ysabeau_Infant,
   Ysabeau_Office,
   Ysabeau_SC,
-
-
 } from "next/font/google";
 // abcdefghijklmnopqrstu vwxyz
 const ar_one_sans = AR_One_Sans({ preload: false });
@@ -303,6 +304,83 @@ const arimo = Arimo({ preload: false });
 const asap = Asap({ preload: false });
 const assistant = Assistant({ preload: false });
 const azeret_mono = Azeret_Mono({ preload: false });
+
+
+const aBeeZee = ABeeZee({ preload: false,weight:"400" });
+const aDLaM_Display = ADLaM_Display({ preload: false,weight:"400"  });
+const abel = Abel({ preload: false,weight:"400"  });
+const abhaya_Libre = Abhaya_Libre({ preload: false,weight:"400"  });
+const aboreto = Aboreto({ preload: false,weight:"400"  });
+const abril_Fatface = Abril_Fatface({ preload: false,weight:"400"  });
+const abyssinica_SIL = Abyssinica_SIL({ preload: false,weight:"400"  });
+const aclonica = Aclonica({ preload: false ,weight:"400" });
+const acme = Acme({ preload: false ,weight:"400" });
+const actor = Actor({ preload: false ,weight:"400" });
+const adamina = Adamina({ preload: false ,weight:"400" });
+const agbalumo = Agbalumo({ preload: false ,weight:"400" });
+const agdasima = Agdasima({ preload: false ,weight:"400" });
+const aguafina_Script = Aguafina_Script({ preload: false ,weight:"400" });
+const akatab = Akatab({ preload: false ,weight:"400" });
+const akaya_Kanadaka = Akaya_Kanadaka({ preload: false ,weight:"400" });
+const akronim = Akronim({ preload: false ,weight:"400" });
+const aladin = Aladin({ preload: false ,weight:"400" });
+const alata = Alata({ preload: false ,weight:"400" });
+const alatsi = Alatsi({ preload: false ,weight:"400" });
+const aldrich = Aldrich({ preload: false ,weight:"400" });
+const alef = Alef({ preload: false ,weight:"400" });
+const alegreya_Sans = Alegreya_Sans({ preload: false ,weight:"400" });
+const alex_Brush = Alex_Brush({ preload: false ,weight:"400" });
+const alfa_Slab_One = Alfa_Slab_One({ preload: false ,weight:"400" });
+const alice = Alice({ preload: false ,weight:"400" });
+const alike = Alike({ preload: false ,weight:"400" });
+const alkalami = Alkalami({ preload: false ,weight:"400" });
+const alkatra = Alkatra({ preload: false ,weight:"400" });
+const allan = Allan({ preload: false ,weight:"400" });
+const allerta = Allerta({ preload: false ,weight:"400" });
+const allison = Allison({ preload: false ,weight:"400" });
+const allura = Allura({ preload: false ,weight:"400" });
+const almarai = Almarai({ preload: false ,weight:"400" });
+const almendra_Display = Almendra_Display({ preload: false ,weight:"400" });
+const amarante = Amarante({ preload: false ,weight:"400" });
+const amatic_SC = Amatic_SC({ preload: false ,weight:"400" });
+const amiko = Amiko({ preload: false ,weight:"400" });
+const amiri_Quran = Amiri_Quran({ preload: false ,weight:"400" });
+const amita = Amita({ preload: false ,weight:"400" });
+const amaranth = Amaranth({ preload: false ,weight:"400" });
+const amiri = Amiri({ preload: false ,weight:"400" });
+const amethysta = Amethysta({ preload: false ,weight:"400" });
+const anaheim = Anaheim({ preload: false ,weight:"400" });
+const andika = Andika({ preload: false ,weight:"400" });
+const angkor = Angkor({ preload: false ,weight:"400" });
+const aoboshi_One = Aoboshi_One({ preload: false ,weight:"400" });
+const arapey = Arapey({ preload: false ,weight:"400" });
+const arbutus = Arbutus({ preload: false ,weight:"400" });
+const arbutus_Slab = Arbutus_Slab({ preload: false ,weight:"400" });
+const architects_Daughter = Architects_Daughter({ preload: false ,weight:"400" });
+const are_You_Serious = Are_You_Serious({ preload: false ,weight:"400" });
+const aref_Ruqaa = Aref_Ruqaa({ preload: false ,weight:"400" });
+const arizonia = Arizonia({ preload: false ,weight:"400" });
+const armata = Armata({ preload: false ,weight:"400" });
+const arsenal = Arsenal({ preload: false ,weight:"400" });
+const artifika = Artifika({ preload: false ,weight:"400" });
+const arvo = Arvo({ preload: false ,weight:"400" });
+const arya = Arya({ preload: false ,weight:"400" });
+const asar = Asar({ preload: false ,weight:"400" });
+const asset = Asset({ preload: false ,weight:"400" });
+const asul = Asul({ preload: false ,weight:"400" });
+const athiti = Athiti({ preload: false ,weight:"400" });
+const atkinson_Hyperlegible = Atkinson_Hyperlegible({ preload: false ,weight:"400" });
+const atma = Atma({ preload: false ,weight:"400" });
+const atomic_Age = Atomic_Age({ preload: false ,weight:"400" });
+const aubrey = Aubrey({ preload: false ,weight:"400" });
+const audiowide = Audiowide({ preload: false ,weight:"400" });
+const autour_One = Autour_One({ preload: false ,weight:"400" });
+const average = Average({ preload: false ,weight:"400" });
+const average_Sans = Average_Sans({ preload: false ,weight:"400" });
+
+
+
+
 const ballet = Ballet({ preload: false });
 const baloo_2 = Baloo_2({ preload: false });
 const baloo_bhai_2 = Baloo_Bhai_2({ preload: false });
@@ -316,13 +394,91 @@ const baloo_tammudu_2 = Baloo_Tammudu_2({ preload: false });
 const baloo_thambi_2 = Baloo_Thambi_2({ preload: false });
 const besley = Besley({ preload: false });
 const big_shoulders_display = Big_Shoulders_Display({ preload: false });
-const big_shoulders_inline_display = Big_Shoulders_Inline_Display({ preload: false });
+const big_shoulders_inline_display = Big_Shoulders_Inline_Display({preload: false,});
 const big_shoulders_inline_text = Big_Shoulders_Inline_Text({ preload: false });
 const big_shoulders_text = Big_Shoulders_Text({ preload: false });
-// const biorhyme = BioRhyme({ preload: false });
 const bitter = Bitter({ preload: false });
 const bodoni_moda = Bodoni_Moda({ preload: false });
 const brygada_1918 = Brygada_1918({ preload: false });
+
+
+
+const b612 = B612({ preload: false ,weight:"400"});
+const babylonica = Babylonica({ preload: false ,weight:"400"});
+const bacasime_Antique = Bacasime_Antique({ preload: false ,weight:"400"});
+const bad_Script = Bad_Script({ preload: false ,weight:"400"});
+const bagel_Fat_One = Bagel_Fat_One({ preload: false ,weight:"400"});
+const bahiana = Bahiana({ preload: false ,weight:"400"});
+const bahianita = Bahianita({ preload: false ,weight:"400"});
+const bai_Jamjuree = Bai_Jamjuree({ preload: false ,weight:"400"});
+const bakbak_One = Bakbak_One({ preload: false ,weight:"400"});
+const balsamiq_Sans = Balsamiq_Sans({ preload: false ,weight:"400"});
+const balthazar = Balthazar({ preload: false ,weight:"400"});
+const bangers = Bangers({ preload: false ,weight:"400"});
+const barlow = Barlow({ preload: false ,weight:"400"});
+const barlow_Condensed = Barlow_Condensed({ preload: false ,weight:"400"});
+const barriecito = Barriecito({ preload: false ,weight:"400"});
+const barrio = Barrio({ preload: false ,weight:"400"});
+const basic = Basic({ preload: false ,weight:"400"});
+const baskervville = Baskervville({ preload: false ,weight:"400"});
+const battambang = Battambang({ preload: false ,weight:"400"});
+const baumans = Baumans({ preload: false ,weight:"400"});
+const bayon = Bayon({ preload: false ,weight:"400"});
+const be_Vietnam_Pro = Be_Vietnam_Pro({ preload: false ,weight:"400"});
+const beau_Rivage = Beau_Rivage({ preload: false ,weight:"400"});
+const bebas_Neue = Bebas_Neue({ preload: false ,weight:"400"});
+const belanosima = Belanosima({ preload: false ,weight:"400"});
+const belgrano = Belgrano({ preload: false ,weight:"400"});
+const bellefair = Bellefair({ preload: false ,weight:"400"});
+const belleza = Belleza({ preload: false ,weight:"400"});
+const bellota = Bellota({ preload: false ,weight:"400"});
+const bellota_Text = Bellota_Text({ preload: false ,weight:"400"});
+const benchNine = BenchNine({ preload: false ,weight:"400"});
+const benne = Benne({ preload: false ,weight:"400"});
+const bentham = Bentham({ preload: false ,weight:"400"});
+const berkshire_Swash = Berkshire_Swash({ preload: false ,weight:"400"});
+const beth_Ellen = Beth_Ellen({ preload: false ,weight:"400"});
+const bevan = Bevan({ preload: false ,weight:"400"});
+const bhuTuka_Expanded_One = BhuTuka_Expanded_One({ preload: false, weight: '400' });
+const bigelow_Rules = Bigelow_Rules({ preload: false, weight: '400' });
+const bigshot_One = Bigshot_One({ preload: false, weight: '400' });
+const bilbo = Bilbo({ preload: false, weight: '400' });
+const bioRhyme = BioRhyme({ preload: false, weight: '400' });
+const birthstone = Birthstone({ preload: false, weight: '400' });
+const birthstone_Bounce = Birthstone_Bounce({ preload: false, weight: '400' });
+const biryani = Biryani({ preload: false, weight: '400' });
+const black_And_White_Picture = Black_And_White_Picture({ preload: false, weight: '400' });
+const black_Han_Sans = Black_Han_Sans({ preload: false, weight: '400' });
+const black_Ops_One = Black_Ops_One({ preload: false, weight: '400' });
+const blaka = Blaka({ preload: false, weight: '400' });
+const blaka_Hollow = Blaka_Hollow({ preload: false, weight: '400' });
+const blaka_Ink = Blaka_Ink({ preload: false, weight: '400' });
+const blinker = Blinker({ preload: false, weight: '400' });
+const bokor = Bokor({ preload: false, weight: '400' });
+const bona_Nova = Bona_Nova({ preload: false, weight: '400' });
+const bonbon = Bonbon({ preload: false, weight: '400' });
+const bonheur_Royale = Bonheur_Royale({ preload: false, weight: '400' });
+const boogaloo = Boogaloo({ preload: false, weight: '400' });
+const borel = Borel({ preload: false, weight: '400' });
+const bowlby_One = Bowlby_One({ preload: false, weight: '400' });
+const braah_One = Braah_One({ preload: false, weight: '400' });
+const brawler = Brawler({ preload: false, weight: '400' });
+const bree_Serif = Bree_Serif({ preload: false, weight: '400' });
+const bricolage_Grotesque = Bricolage_Grotesque({ preload: false, weight: '400' });
+const bruno_Ace = Bruno_Ace({ preload: false, weight: '400' });
+const bruno_Ace_SC = Bruno_Ace_SC({ preload: false, weight: '400' });
+const bubblegum_Sans = Bubblegum_Sans({ preload: false, weight: '400' });
+const bubbler_One = Bubbler_One({ preload: false, weight: '400' });
+const buda = Buda({ preload: false, weight: '300' });
+const buenard = Buenard({ preload: false, weight: '400' });
+const bungee = Bungee({ preload: false, weight: '400' });
+const bungee_Hairline = Bungee_Hairline({ preload: false, weight: '400' });
+const butcherman = Butcherman({ preload: false, weight: '400' });
+const butterfly_Kids = Butterfly_Kids({ preload: false, weight: '400' });
+
+
+
+
 const cabin = Cabin({ preload: false });
 const cairo = Cairo({ preload: false });
 const cairo_play = Cairo_Play({ preload: false });
@@ -428,7 +584,7 @@ const marhey = Marhey({ preload: false });
 const markazi_text = Markazi_Text({ preload: false });
 const martian_mono = Martian_Mono({ preload: false });
 const maven_pro = Maven_Pro({ preload: false });
-const meera_inimai = Meera_Inimai({ preload: false,weight:"400" });
+const meera_inimai = Meera_Inimai({ preload: false, weight: "400" });
 const merriweather_sans = Merriweather_Sans({ preload: false });
 const mohave = Mohave({ preload: false });
 const montagu_slab = Montagu_Slab({ preload: false });
@@ -470,7 +626,7 @@ const podkova = Podkova({ preload: false });
 const poltawski_nowy = Poltawski_Nowy({ preload: false });
 const pontano_sans = Pontano_Sans({ preload: false });
 const public_sans = Public_Sans({ preload: false });
-const quicksand = Quicksand({preload:false});
+const quicksand = Quicksand({ preload: false });
 const rem = REM({ preload: false });
 const radio_canada = Radio_Canada({ preload: false });
 const raleway = Raleway({ preload: false });
@@ -504,7 +660,9 @@ const sixtyfour = Sixtyfour({ preload: false });
 const smooch_sans = Smooch_Sans({ preload: false });
 const sofia_sans = Sofia_Sans({ preload: false });
 const sofia_sans_condensed = Sofia_Sans_Condensed({ preload: false });
-const sofia_sans_extra_condensed = Sofia_Sans_Extra_Condensed({ preload: false });
+const sofia_sans_extra_condensed = Sofia_Sans_Extra_Condensed({
+  preload: false,
+});
 const sofia_sans_semi_condensed = Sofia_Sans_Semi_Condensed({ preload: false });
 const sometype_mono = Sometype_Mono({ preload: false });
 const sono = Sono({ preload: false });
@@ -524,8 +682,8 @@ const tilt_prism = Tilt_Prism({ preload: false });
 const tourney = Tourney({ preload: false });
 const trispace = Trispace({ preload: false });
 const truculenta = Truculenta({ preload: false });
-const ubuntu = Ubuntu({ preload: false,weight:"400" });
-const ubuntu_mono = Ubuntu_Mono({ preload: false,weight:"400" });
+const ubuntu = Ubuntu({ preload: false, weight: "400" });
+const ubuntu_mono = Ubuntu_Mono({ preload: false, weight: "400" });
 const unbounded = Unbounded({ preload: false });
 const urbanist = Urbanist({ preload: false });
 const varta = Varta({ preload: false });
@@ -576,6 +734,82 @@ export {
   asap,
   assistant,
   azeret_mono,
+
+
+  aBeeZee,
+  aDLaM_Display,
+  abel,
+  abhaya_Libre,
+  aboreto,
+  abril_Fatface,
+  abyssinica_SIL,
+  aclonica,
+  acme,
+  actor,
+  adamina,
+  agbalumo,
+  agdasima,
+  aguafina_Script,
+  akatab,
+  akaya_Kanadaka,
+  akronim,
+  aladin,
+  alata,
+  alatsi,
+  aldrich,
+  alef,
+  alegreya_Sans,
+  alex_Brush,
+  alfa_Slab_One,
+  alice,
+  alike,
+  alkalami,
+  alkatra,
+  allan,
+  allerta,
+  allison,
+  allura,
+  almarai,
+  almendra_Display,
+  amarante,
+  amatic_SC,
+  amiko,
+  amiri_Quran,
+  amita,
+  amaranth,
+  amiri,
+  amethysta,
+  anaheim,
+  andika,
+  angkor,
+  aoboshi_One,
+  arapey,
+  arbutus,
+  arbutus_Slab,
+  architects_Daughter,
+  are_You_Serious,
+  aref_Ruqaa,
+  arizonia,
+  armata,
+  arsenal,
+  artifika,
+  arvo,
+  arya,
+  asar,
+  asset,
+  asul,
+  athiti,
+  atkinson_Hyperlegible,
+  atma,
+  atomic_Age,
+  aubrey,
+  audiowide,
+  autour_One,
+  average,
+  average_Sans,
+
+
+
   ballet,
   baloo_2,
   baloo_bhai_2,
@@ -595,6 +829,83 @@ export {
   bitter,
   bodoni_moda,
   brygada_1918,
+
+
+
+  b612,
+  babylonica,
+  bacasime_Antique,
+  bad_Script,
+  bagel_Fat_One,
+  bahiana,
+  bahianita,
+  bai_Jamjuree,
+  bakbak_One,
+  balsamiq_Sans,
+  balthazar,
+  bangers,
+  barlow,
+  barlow_Condensed,
+  barriecito,
+  barrio,
+  basic,
+  baskervville,
+  battambang,
+  baumans,
+  bayon,
+  be_Vietnam_Pro,
+  beau_Rivage,
+  bebas_Neue,
+  belanosima,
+  belgrano,
+  bellefair,
+  belleza,
+  bellota,
+  bellota_Text,
+  benchNine,
+  benne,
+  bentham,
+  berkshire_Swash,
+  beth_Ellen,
+  bevan,
+  bhuTuka_Expanded_One,
+  bigelow_Rules,
+  bigshot_One,
+  bilbo,
+  bioRhyme,
+  birthstone,
+  birthstone_Bounce,
+  biryani,
+  black_And_White_Picture,
+  black_Han_Sans,
+  black_Ops_One,
+  blaka,
+  blaka_Hollow,
+  blaka_Ink,
+  blinker,
+  bokor,
+  bona_Nova,
+  bonbon,
+  bonheur_Royale,
+  boogaloo,
+  borel,
+  bowlby_One,
+  braah_One,
+  brawler,
+  bree_Serif,
+  bricolage_Grotesque,
+  bruno_Ace,
+  bruno_Ace_SC,
+  bubblegum_Sans,
+  bubbler_One,
+  buda,
+  buenard,
+  bungee,
+  bungee_Hairline,
+  butcherman,
+  butterfly_Kids,
+
+
   cabin,
   cairo,
   cairo_play,
@@ -815,5 +1126,5 @@ export {
   ysabeau,
   ysabeau_infant,
   ysabeau_office,
-  ysabeau_sc
+  ysabeau_sc,
 };
