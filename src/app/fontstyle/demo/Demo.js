@@ -1,23 +1,40 @@
 "use client";
 // Demo.js
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import { fontName } from "@/app/style/font_variable";
 
 export default function Page() {
+  const searchParams = useSearchParams();
+  const [font, setFont] = useState(null);
+  const [fontDetails, setFontDetails] = useState(null);
 
-    const [searchParams, setSearchParams] = useSearchParams();
-    const [font, setFont] = useState(null);
-    const [fontDetails, setFontDetails] = useState(null);
-
-useEffect(() => {
+  useEffect(()=>{
     const fontParam = searchParams.get('font');
-    if (fontParam) {
-      setFont(fontParam);
-      const fontDetails = font_variable[fontParam];
-      setFontDetails(fontDetails);
+    if(fontParam){
+        setFont(fontParam);
+        const fontDetails = fontName[fontParam];
+        setFontDetails(fontDetails)
     }
-  }, [searchParams]);
+  },[searchParams])
 
+//   useEffect(() => {
+//     // const fontParam = searchParams.get("font");
+//     // if (fontParam) {
+//     //   setFont(fontParam);
+//     //   const fontDetails = fontName[fontParam];
+//     //   setFontDetails(fontDetails);
+//     // }
+//     // const searchParams = useSearchParams();
+//     const font = searchParams.get('font');
+//     const fontDetails = fontName[font];
+//     if(fontDetails){
+//         setFontDetails(fontDetails);
+//     }
+//     else{
+//         alert("Failed to find Font")
+//     }
+//   }, [searchParams]);
 
   const alphabet = [
     "a",
@@ -56,28 +73,36 @@ useEffect(() => {
   ];
 
   return (
-    <div className={`${fontDetails.className} py-5 flex flex-col gap-5`}>
+    <div className={`${fontDetails?.className} py-5 flex px-3 flex-col gap-5 overflow-hidden`}>
+      <div className="flex justify-center items-center text-sm sm:text-2xl md:text-3xl underline flex-col gap-3">
+        This is a Example of the given font Style..
+      </div>
+      <hr/>
       <div className="flex justify-center items-center flex-col gap-3">
         <h1 className="font-serif text-2xl uppercase">UpperCase Alphabet</h1>
-        <div className="py-3 px-5 flex flex-wrap gap-5 text-4xl w-screen">
+        <div className="py-3 px-5 flex flex-wrap gap-5 text-sm sm:text-2xl md:text-4xl w-screen">
           {alphabet.map((i) => (
-            <span key={i} className="uppercase">{i}</span>
+            <span key={i} className="uppercase">
+              {i}
+            </span>
           ))}
         </div>
       </div>
       <hr />
       <div className="flex justify-center items-center flex-col gap-3">
         <h1 className="font-serif text-2xl lowercase">LowerCase Alphabet</h1>
-        <div className="py-3 px-5 flex flex-wrap gap-5 text-4xl w-screen">
+        <div className="py-3 px-5 flex flex-wrap gap-5 text-sm sm:text-2xl md:text-4xl w-screen">
           {alphabet.map((i) => (
-            <span key={i} className="lowercase">{i}</span>
+            <span key={i} className="lowercase">
+              {i}
+            </span>
           ))}
         </div>
       </div>
       <hr />
       <div className="flex justify-center items-center flex-col gap-3">
         <h1 className="font-serif text-2xl ">Numbers</h1>
-        <div className="py-3 px-5 flex flex-wrap gap-5 text-4xl w-screen">
+        <div className="py-3 px-5 flex flex-wrap gap-5 text-sm sm:text-2xl md:text-4xl w-screen">
           {Array.from({ length: 100 }, (_, i) => i + 1).map((number) => (
             <div key={number}>{number}</div>
           ))}
@@ -86,7 +111,7 @@ useEffect(() => {
       <hr />
       <div className="flex justify-center items-center flex-col gap-3">
         <h1 className="font-serif text-2xl">Examples</h1>
-        <div className="py-3 px-5 flex flex-wrap gap-5 text-4xl w-screen">
+        <div className="py-3 px-5 flex flex-wrap gap-5 text-sm sm:text-2xl md:text-4xl w-screen">
           {sentences.map((sentence, index) => (
             <li key={index}>{sentence}</li>
           ))}
