@@ -222,12 +222,7 @@ import {Pacifico,Padauk,Padyakke_Expanded_One,Palanquin,Palanquin_Dark,Palette_M
 import {Qahiri,Quando,Quantico,Quattrocento,Quattrocento_Sans,Questrial,Quicksand,Quintessential,Qwigley,Qwitcher_Grypen} from "next/font/google";
 
 
-import {Racing_Sans_One,Radley,Rajdhani,Rakkas,Raleway_Dots,Ramabhadra,Ramaraja,Rambla,Rammetto_One,Rampart_One,Ranchers,Rancho,Ranga,Rationale,Ravi_Prakash,Redacted,Redacted_Script,Redressed,Reenie_Beanie,Reggae_One,Revalia,Rhodium_Libre,Ribeye,Ribeye_Marrow,Righteous,Risque,Road_Rage,Roboto,Rochester,Rock_3D,RocknRoll_One,Rokkitt,Romanesco,Ropa_Sans,Rosarivo,Rouge_Script,Rowdies,Rozha_One,Rufina,Ruge_Boogie,Ruluko,Rum_Raisin,Ruslan_Display,Russo_One,Ruthie,Ruwudu,REM,
-  Radio_Canada,
-  Raleway,
-  Rasa,
-  Readex_Pro,
-  Recursive,
+import {Racing_Sans_One,Radley,Rajdhani,Rakkas,Raleway_Dots,Ramabhadra,Ramaraja,Rambla,Rammetto_One,Rampart_One,Ranchers,Rancho,Ranga,Rationale,Ravi_Prakash,Redacted,Redacted_Script,Redressed,Reenie_Beanie,Reggae_One,Revalia,Rhodium_Libre,Ribeye,Ribeye_Marrow,Righteous,Risque,Road_Rage,Roboto,Rochester,Rock_3D,RocknRoll_One,Rokkitt,Romanesco,Ropa_Sans,Rosarivo,Rouge_Script,Rowdies,Rozha_One,Rufina,Ruge_Boogie,Ruluko,Rum_Raisin,Ruslan_Display,Russo_One,Ruthie,Ruwudu,REM,Radio_Canada,Raleway,Rasa,Readex_Pro,Recursive,
   Red_Hat_Display,
   Red_Hat_Mono,
   Red_Hat_Text,
@@ -245,10 +240,8 @@ import {Racing_Sans_One,Radley,Rajdhani,Rakkas,Raleway_Dots,Ramabhadra,Ramaraja,
   Rubik,
   Ruda} from "next/font/google";
 
-// abcdefghijklmnopqr stuvwxyz
-
-
-import {
+import {Sacramento,Sahitya,Sail,Saira_Condensed,Saira_Extra_Condensed,Saira_Semi_Condensed,Saira_Stencil_One,Salsa,Sanchez,Sancreek,Sansita,Sarabun,Sarala,Sarina,Sarpanch,Sassy_Frass,Satisfy,Sawarabi_Gothic,Sawarabi_Mincho,Scada,Scheherazade_New,Schoolbell,Scope_One,Seaweed_Script,Secular_One,Sedan,Sedgwick_Ave,Sedgwick_Ave_Display,Send_Flowers,Sevillana,Seymour_One,Shadows_Into_Light,Shadows_Into_Light_Two,Shalimar,Shanti,Share,Share_Tech,Share_Tech_Mono,Shippori_Antique,Shippori_Mincho,Shizuru,Shojumaru,Short_Stack,Shrikhand,Siemreap,Sigmar,Sigmar_One,Signika_Negative,Silkscreen,Simonetta,Single_Day,Sintony,Sirin_Stencil,Six_Caps,Skranji,Slabo_13px,Slackey,Slackside_One,Smokum,Smooch,Smythe,Sniglet,Snippet,Snowburst_One,Sofadi_One,Solitreo,Solway,Song_Myung,Sonsie_One,Sorts_Mill_Goudy,Space_Mono,Special_Elite,Spectral,Spectral_SC,Spicy_Rice,Spinnaker,Spirax,Splash,Squada_One,Square_Peg,Sree_Krushnadevaraya,Sriracha,Swanky_and_Moo_Moo,Syncopate} from "next/font/google";
+import {Staatliches,Stalemate,Stalinist_One,Stardos_Stencil,Stick,Stick_No_Bills,Stint_Ultra_Condensed,Stint_Ultra_Expanded,Stoke,Strait,Style_Script,Stylish,Sue_Ellen_Francisco,Suez_One,Sulphur_Point,Sumana,Sunflower,Sunshiney,Supermercado_One,Sura,Suranna,Suravaram,Suwannaphum,
   STIX_Two_Text,
   Saira,
   Sansita_Swashed,
@@ -271,7 +264,11 @@ import {
   Space_Grotesk,
   Spline_Sans,
   Spline_Sans_Mono,
-  Syne,
+  Syne} from "next/font/google";
+
+
+
+import {Tac_One,Tai_Heritage_Pro,Tajawal,Tangerine,Tapestry,Taprom,Tauri,Taviraj,Telex,Tenali_Ramakrishna,Tenor_Sans,Text_Me_One,Thasadith,The_Girl_Next_Door,The_Nautigal,Tienne,Tillana,Timmana,Tinos,Titan_One,Titillium_Web,Tomorrow,Trade_Winds,Train_One,Trirong,Trocchi,Trochut,Trykker,Tsukimi_Rounded,Tulpen_One,Turret_Road,Twinkle_Star,
   Teko,
   Tektur,
   Texturina,
@@ -279,20 +276,39 @@ import {
   Tilt_Prism,
   Tourney,
   Trispace,
-  Truculenta,
+  Truculenta} from "next/font/google";
+
+import {Uchen,Ultra,Underdog,Unica_One,Uncial_Antiqua,Unkempt,UnifrakturCook,Unlock,Unna,UnifrakturMaguntia,Updock,
   Ubuntu,
   Ubuntu_Mono,
   Unbounded,
-  Urbanist,
+  Urbanist} from "next/font/google";
+
+
+import {Vampiro_One,Varela,Varela_Round,Vast_Shadow,Vesper_Libre,Viaoda_Libre,Vibes,Vibur,Vidaloka,Viga,Vina_Sans,Voces,Volkhov,Vollkorn_SC,Voltaire,Vujahday_Script,
   Varta,
   Vazirmatn,
   Victor_Mono,
-  Vollkorn,
+  Vollkorn} from "next/font/google";
+
+
+  
+import {Waiting_for_the_Sunrise,Wallpoet,Walter_Turncoat,Warnes,Water_Brush,Waterfall,Wellfleet,Wendy_One,Whisper,WindSong,Wire_One,
   Wavefont,
   Wix_Madefor_Display,
   Wix_Madefor_Text,
   Work_Sans,
-  Workbench,
+  Workbench} from "next/font/google";
+
+
+import {Xanh_Mono} from "next/font/google";
+
+
+// abcdefghijklmnopqrstuvw xyz
+
+import {Yantramanav,Yarndings_12,Yatra_One,Yellowtail,Yeon_Sung,Yeseva_One,Yesteryear,Yomogi,Young_Serif,Yuji_Boku,Yuji_Mai} from "next/font/google";
+
+import {
   Yaldevi,
   Yanone_Kaffeesatz,
   Yrsa,
@@ -302,6 +318,9 @@ import {
   Ysabeau_SC,
 } from "next/font/google";
 // abcdefghijklmnopqrstu vwxyz
+
+import {Zen_Antique,Zeyada,Zhi_Mang_Xing,Zilla_Slab} from "next/font/google";
+
 const ar_one_sans = AR_One_Sans({ preload: false });
 const advent_pro = Advent_Pro({ preload: false });
 const afacad = Afacad({ preload: false });
@@ -1414,6 +1433,120 @@ const space_grotesk = Space_Grotesk({ preload: false });
 const spline_sans = Spline_Sans({ preload: false });
 const spline_sans_mono = Spline_Sans_Mono({ preload: false });
 const syne = Syne({ preload: false });
+
+
+
+const sacramento = Sacramento({ preload: false, weight: '400' });
+const sahitya = Sahitya({ preload: false, weight: '400' });
+const sail = Sail({ preload: false, weight: '400' });
+const saira_Condensed = Saira_Condensed({ preload: false, weight: '400' });
+const saira_Extra_Condensed = Saira_Extra_Condensed({ preload: false, weight: '400' });
+const saira_Semi_Condensed = Saira_Semi_Condensed({ preload: false, weight: '400' });
+const saira_Stencil_One = Saira_Stencil_One({ preload: false, weight: '400' });
+const salsa = Salsa({ preload: false, weight: '400' });
+const sanchez = Sanchez({ preload: false, weight: '400' });
+const sancreek = Sancreek({ preload: false, weight: '400' });
+const sansita = Sansita({ preload: false, weight: '400' });
+const sarabun = Sarabun({ preload: false, weight: '400' });
+const sarala = Sarala({ preload: false, weight: '400' });
+const sarina = Sarina({ preload: false, weight: '400' });
+const sarpanch = Sarpanch({ preload: false, weight: '400' });
+const sassy_Frass = Sassy_Frass({ preload: false, weight: '400' });
+const satisfy = Satisfy({ preload: false, weight: '400' });
+const sawarabi_Gothic = Sawarabi_Gothic({ preload: false, weight: '400' });
+const sawarabi_Mincho = Sawarabi_Mincho({ preload: false, weight: '400' });
+const scada = Scada({ preload: false, weight: '400' });
+const scheherazade_New = Scheherazade_New({ preload: false, weight: '400' });
+const schoolbell = Schoolbell({ preload: false, weight: '400' });
+const scope_One = Scope_One({ preload: false, weight: '400' });
+const seaweed_Script = Seaweed_Script({ preload: false, weight: '400' });
+const secular_One = Secular_One({ preload: false, weight: '400' });
+const sedan = Sedan({ preload: false, weight: '400' });
+const sedgwick_Ave = Sedgwick_Ave({ preload: false, weight: '400' });
+const sedgwick_Ave_Display = Sedgwick_Ave_Display({ preload: false, weight: '400' });
+const send_Flowers = Send_Flowers({ preload: false, weight: '400' });
+const sevillana = Sevillana({ preload: false, weight: '400' });
+const seymour_One = Seymour_One({ preload: false, weight: '400' });
+const shadows_Into_Light = Shadows_Into_Light({ preload: false, weight: '400' });
+const shadows_Into_Light_Two = Shadows_Into_Light_Two({ preload: false, weight: '400' });
+const shalimar = Shalimar({ preload: false, weight: '400' });
+const shanti = Shanti({ preload: false, weight: '400' });
+const share = Share({ preload: false, weight: '400' });
+const share_Tech = Share_Tech({ preload: false, weight: '400' });
+const share_Tech_Mono = Share_Tech_Mono({ preload: false, weight: '400' });
+const shippori_Antique = Shippori_Antique({ preload: false, weight: '400' });
+const shippori_Mincho = Shippori_Mincho({ preload: false, weight: '400' });
+const shizuru = Shizuru({ preload: false, weight: '400' });
+const shojumaru = Shojumaru({ preload: false, weight: '400' });
+const short_Stack = Short_Stack({ preload: false, weight: '400' });
+const shrikhand = Shrikhand({ preload: false, weight: '400' });
+const siemreap = Siemreap({ preload: false, weight: '400' });
+const sigmar = Sigmar({ preload: false, weight: '400' });
+const sigmar_One = Sigmar_One({ preload: false, weight: '400' });
+const signika_Negative = Signika_Negative({ preload: false, weight: '400' });
+const silkscreen = Silkscreen({ preload: false, weight: '400' });
+const simonetta = Simonetta({ preload: false, weight: '400' });
+const single_Day = Single_Day({ preload: false, weight: '400' });
+const sintony = Sintony({ preload: false, weight: '400' });
+const sirin_Stencil = Sirin_Stencil({ preload: false, weight: '400' });
+const six_Caps = Six_Caps({ preload: false, weight: '400' });
+const skranji = Skranji({ preload: false, weight: '400' });
+const slabo_13px = Slabo_13px({ preload: false, weight: '400' });
+const slackey = Slackey({ preload: false, weight: '400' });
+const slackside_One = Slackside_One({ preload: false, weight: '400' });
+const smokum = Smokum({ preload: false, weight: '400' });
+const smooch = Smooch({ preload: false, weight: '400' });
+const smythe = Smythe({ preload: false, weight: '400' });
+const sniglet = Sniglet({ preload: false, weight: '400' });
+const snippet = Snippet({ preload: false, weight: '400' });
+const snowburst_One = Snowburst_One({ preload: false, weight: '400' });
+const sofadi_One = Sofadi_One({ preload: false, weight: '400' });
+const solitreo = Solitreo({ preload: false, weight: '400' });
+const solway = Solway({ preload: false, weight: '400' });
+const song_Myung = Song_Myung({ preload: false, weight: '400' });
+const sonsie_One = Sonsie_One({ preload: false, weight: '400' });
+const sorts_Mill_Goudy = Sorts_Mill_Goudy({ preload: false, weight: '400' });
+const space_Mono = Space_Mono({ preload: false, weight: '400' });
+const special_Elite = Special_Elite({ preload: false, weight: '400' });
+const spectral = Spectral({ preload: false, weight: '400' });
+const spectral_SC = Spectral_SC({ preload: false, weight: '400' });
+const spicy_Rice = Spicy_Rice({ preload: false, weight: '400' });
+const spinnaker = Spinnaker({ preload: false, weight: '400' });
+const spirax = Spirax({ preload: false, weight: '400' });
+const splash = Splash({ preload: false, weight: '400' });
+const squada_One = Squada_One({ preload: false, weight: '400' });
+const square_Peg = Square_Peg({ preload: false, weight: '400' });
+const sree_Krushnadevaraya = Sree_Krushnadevaraya({ preload: false, weight: '400' });
+const sriracha = Sriracha({ preload: false, weight: '400' });
+const swanky_and_Moo_Moo = Swanky_and_Moo_Moo({ preload: false, weight: '400' });
+const syncopate = Syncopate({ preload: false, weight: '400' });
+const staatliches = Staatliches({ preload: false, weight: '400' });
+const stalemate = Stalemate({ preload: false, weight: '400' });
+const stalinist_One = Stalinist_One({ preload: false, weight: '400' });
+const stardos_Stencil = Stardos_Stencil({ preload: false, weight: '400' });
+const stick = Stick({ preload: false, weight: '400' });
+const stick_No_Bills = Stick_No_Bills({ preload: false, weight: '400' });
+const stint_Ultra_Condensed = Stint_Ultra_Condensed({ preload: false, weight: '400' });
+const stint_Ultra_Expanded = Stint_Ultra_Expanded({ preload: false, weight: '400' });
+const stoke = Stoke({ preload: false, weight: '400' });
+const strait = Strait({ preload: false, weight: '400' });
+const style_Script = Style_Script({ preload: false, weight: '400' });
+const stylish = Stylish({ preload: false, weight: '400' });
+const sue_Ellen_Francisco = Sue_Ellen_Francisco({ preload: false, weight: '400' });
+const suez_One = Suez_One({ preload: false, weight: '400' });
+const sulphur_Point = Sulphur_Point({ preload: false, weight: '400' });
+const sumana = Sumana({ preload: false, weight: '400' });
+const sunflower = Sunflower({ preload: false, weight: '500' });
+const sunshiney = Sunshiney({ preload: false, weight: '400' });
+const supermercado_One = Supermercado_One({ preload: false, weight: '400' });
+const sura = Sura({ preload: false, weight: '400' });
+const suranna = Suranna({ preload: false, weight: '400' });
+const suravaram = Suravaram({ preload: false, weight: '400' });
+const suwannaphum = Suwannaphum({ preload: false, weight: '400' });
+
+
+
+
 const teko = Teko({ preload: false });
 const tektur = Tektur({ preload: false });
 const texturina = Texturina({ preload: false });
@@ -1422,19 +1555,93 @@ const tilt_prism = Tilt_Prism({ preload: false });
 const tourney = Tourney({ preload: false });
 const trispace = Trispace({ preload: false });
 const truculenta = Truculenta({ preload: false });
+const tac_One = Tac_One({ preload: false, weight: '400' });
+const tai_Heritage_Pro = Tai_Heritage_Pro({ preload: false, weight: '400' });
+const tajawal = Tajawal({ preload: false, weight: '400' });
+const tangerine = Tangerine({ preload: false, weight: '400' });
+const tapestry = Tapestry({ preload: false, weight: '400' });
+const taprom = Taprom({ preload: false, weight: '400' });
+const tauri = Tauri({ preload: false, weight: '400' });
+const taviraj = Taviraj({ preload: false, weight: '400' });
+const telex = Telex({ preload: false, weight: '400' });
+const tenali_Ramakrishna = Tenali_Ramakrishna({ preload: false, weight: '400' });
+const tenor_Sans = Tenor_Sans({ preload: false, weight: '400' });
+const text_Me_One = Text_Me_One({ preload: false, weight: '400' });
+const thasadith = Thasadith({ preload: false, weight: '400' });
+const the_Girl_Next_Door = The_Girl_Next_Door({ preload: false, weight: '400' });
+const the_Nautigal = The_Nautigal({ preload: false, weight: '400' });
+const tienne = Tienne({ preload: false, weight: '400' });
+const tillana = Tillana({ preload: false, weight: '400' });
+const timmana = Timmana({ preload: false, weight: '400' });
+const tinos = Tinos({ preload: false, weight: '400' });
+const titan_One = Titan_One({ preload: false, weight: '400' });
+const titillium_Web = Titillium_Web({ preload: false, weight: '400' });
+const tomorrow = Tomorrow({ preload: false, weight: '400' });
+const trade_Winds = Trade_Winds({ preload: false, weight: '400' });
+const train_One = Train_One({ preload: false, weight: '400' });
+const trirong = Trirong({ preload: false, weight: '400' });
+const trocchi = Trocchi({ preload: false, weight: '400' });
+const trochut = Trochut({ preload: false, weight: '400' });
+const trykker = Trykker({ preload: false, weight: '400' });
+const tsukimi_Rounded = Tsukimi_Rounded({ preload: false, weight: '400' });
+const tulpen_One = Tulpen_One({ preload: false, weight: '400' });
+const turret_Road = Turret_Road({ preload: false, weight: '400' });
+const twinkle_Star = Twinkle_Star({ preload: false, weight: '400' });
+
+
+
 const ubuntu = Ubuntu({ preload: false, weight: "400" });
 const ubuntu_mono = Ubuntu_Mono({ preload: false, weight: "400" });
 const unbounded = Unbounded({ preload: false });
 const urbanist = Urbanist({ preload: false });
+const uchen = Uchen({ preload: false, weight: '400' });
+const ultra = Ultra({ preload: false, weight: '400' });
+const underdog = Underdog({ preload: false, weight: '400' });
+const unica_One = Unica_One({ preload: false, weight: '400' });
+const uncial_Antiqua = Uncial_Antiqua({ preload: false, weight: '400' });
+const unkempt = Unkempt({ preload: false, weight: '400' });
+const unifrakturCook = UnifrakturCook({ preload: false, weight: '700' });
+const unlock = Unlock({ preload: false, weight: '400' });
+const unna = Unna({ preload: false, weight: '400' });
+const unifrakturMaguntia = UnifrakturMaguntia({ preload: false, weight: '400' });
+const updock = Updock({ preload: false, weight: '400' });
 const varta = Varta({ preload: false });
 const vazirmatn = Vazirmatn({ preload: false });
 const victor_mono = Victor_Mono({ preload: false });
 const vollkorn = Vollkorn({ preload: false });
+const vampiro_One = Vampiro_One({ preload: false, weight: '400' });
+const varela = Varela({ preload: false, weight: '400' });
+const varela_Round = Varela_Round({ preload: false, weight: '400' });
+const vast_Shadow = Vast_Shadow({ preload: false, weight: '400' });
+const vesper_Libre = Vesper_Libre({ preload: false, weight: '400' });
+const viaoda_Libre = Viaoda_Libre({ preload: false, weight: '400' });
+const vibes = Vibes({ preload: false, weight: '400' });
+const vibur = Vibur({ preload: false, weight: '400' });
+const vidaloka = Vidaloka({ preload: false, weight: '400' });
+const viga = Viga({ preload: false, weight: '400' });
+const vina_Sans = Vina_Sans({ preload: false, weight: '400' });
+const voces = Voces({ preload: false, weight: '400' });
+const volkhov = Volkhov({ preload: false, weight: '400' });
+const vollkorn_SC = Vollkorn_SC({ preload: false, weight: '400' });
+const voltaire = Voltaire({ preload: false, weight: '400' });
+const vujahday_Script = Vujahday_Script({ preload: false, weight: '400' });
 const wavefont = Wavefont({ preload: false });
 const wix_madefor_display = Wix_Madefor_Display({ preload: false });
 const wix_madefor_text = Wix_Madefor_Text({ preload: false });
 const work_sans = Work_Sans({ preload: false });
 const workbench = Workbench({ preload: false });
+const waiting_for_the_sunrise = Waiting_for_the_Sunrise({ preload: false, weight: '400' });
+const wallpoet = Wallpoet({ preload: false, weight: '400' });
+const walter_Turncoat = Walter_Turncoat({ preload: false, weight: '400' });
+const warnes = Warnes({ preload: false, weight: '400' });
+const water_brush = Water_Brush({ preload: false, weight: '400' });
+const waterfall = Waterfall({ preload: false, weight: '400' });
+const wellfleet = Wellfleet({ preload: false, weight: '400' });
+const wendy_One = Wendy_One({ preload: false, weight: '400' });
+const whisper = Whisper({ preload: false, weight: '400' });
+const windSong = WindSong({ preload: false, weight: '400' });
+const wire_One = Wire_One({ preload: false, weight: '400' });
+const xanh_Mono = Xanh_Mono({ preload: false, weight: '400' });
 const yaldevi = Yaldevi({ preload: false });
 const yanone_kaffeesatz = Yanone_Kaffeesatz({ preload: false });
 const yrsa = Yrsa({ preload: false });
@@ -1442,6 +1649,22 @@ const ysabeau = Ysabeau({ preload: false });
 const ysabeau_infant = Ysabeau_Infant({ preload: false });
 const ysabeau_office = Ysabeau_Office({ preload: false });
 const ysabeau_sc = Ysabeau_SC({ preload: false });
+const yantramanav = Yantramanav({ preload: false, weight: '400' });
+const yarndings_12 = Yarndings_12({ preload: false, weight: '400' });
+const yatra_One = Yatra_One({ preload: false, weight: '400' });
+const yellowtail = Yellowtail({ preload: false, weight: '400' });
+const yeon_Sung = Yeon_Sung({ preload: false, weight: '400' });
+const yeseva_One = Yeseva_One({ preload: false, weight: '400' });
+const yesteryear = Yesteryear({ preload: false, weight: '400' });
+const yomogi = Yomogi({ preload: false, weight: '400' });
+const young_Serif = Young_Serif({ preload: false, weight: '400' });
+const yuji_Boku = Yuji_Boku({ preload: false, weight: '400' });
+const yuji_Mai = Yuji_Mai({ preload: false, weight: '400' });
+const zen_Antique = Zen_Antique({ preload: false, weight: '400' });
+const zeyada = Zeyada({ preload: false, weight: '400' });
+const zhi_Mang_Xing = Zhi_Mang_Xing({ preload: false, weight: '400' });
+const zilla_Slab = Zilla_Slab({ preload: false, weight: '400' });
+
 
 export {
   ar_one_sans,
@@ -2316,11 +2539,6 @@ export {
   overpass,
   overpass_mono,
   oxanium,
-
-
-
-
-
   odibee_Sans,
   odor_Mean_Chey,
   offside,
@@ -2342,11 +2560,6 @@ export {
   ovo,
   oxygen,
   oxygen_Mono,
-
-
-
-
-
   pathway_extreme,
   petrona,
   phudu,
@@ -2361,9 +2574,6 @@ export {
   poltawski_nowy,
   pontano_sans,
   public_sans,
-
-
-
   pacifico,
   padauk,
   padyakke_Expanded_One,
@@ -2420,14 +2630,7 @@ export {
   puppies_Play,
   puritan,
   purple_Purse,
-
-
-
-
   quicksand,
-
-
-
   qahiri,
   quando,
   quantico,
@@ -2437,10 +2640,6 @@ export {
   quintessential,
   qwigley,
   qwitcher_Grypen,
-
-
-
-
   rem,
   radio_canada,
   raleway,
@@ -2463,10 +2662,6 @@ export {
   rosario,
   rubik,
   ruda,
-
-
-
-
   racing_Sans_One,
   radley,
   rajdhani,
@@ -2513,11 +2708,6 @@ export {
   russo_One,
   ruthie,
   ruwudu,
-
-
-
-
-
   stix_two_text,
   saira,
   sansita_swashed,
@@ -2541,6 +2731,117 @@ export {
   spline_sans,
   spline_sans_mono,
   syne,
+  sacramento,
+  sahitya,
+  sail,
+  saira_Condensed,
+  saira_Extra_Condensed,
+  saira_Semi_Condensed,
+  saira_Stencil_One,
+  salsa,
+  sanchez,
+  sancreek,
+  sansita,
+  sarabun,
+  sarala,
+  sarina,
+  sarpanch,
+  sassy_Frass,
+  satisfy,
+  sawarabi_Gothic,
+  sawarabi_Mincho,
+  scada,
+  scheherazade_New,
+  schoolbell,
+  scope_One,
+  seaweed_Script,
+  secular_One,
+  sedan,
+  sedgwick_Ave,
+  sedgwick_Ave_Display,
+  send_Flowers,
+  sevillana,
+  seymour_One,
+  shadows_Into_Light,
+  shadows_Into_Light_Two,
+  shalimar,
+  shanti,
+  share,
+  share_Tech,
+  share_Tech_Mono,
+  shippori_Antique,
+  shippori_Mincho,
+  shizuru,
+  shojumaru,
+  short_Stack,
+  shrikhand,
+  siemreap,
+  sigmar,
+  sigmar_One,
+  signika_Negative,
+  silkscreen,
+  simonetta,
+  single_Day,
+  sintony,
+  sirin_Stencil,
+  six_Caps,
+  skranji,
+  slabo_13px,
+  slackey,
+  slackside_One,
+  smokum,
+  smooch,
+  smythe,
+  sniglet,
+  snippet,
+  snowburst_One,
+  sofadi_One,
+  solitreo,
+  solway,
+  song_Myung,
+  sonsie_One,
+  sorts_Mill_Goudy,
+  space_Mono,
+  special_Elite,
+  spectral,
+  spectral_SC,
+  spicy_Rice,
+  spinnaker,
+  spirax,
+  splash,
+  squada_One,
+  square_Peg,
+  sree_Krushnadevaraya,
+  sriracha,
+  swanky_and_Moo_Moo,
+  syncopate,
+  staatliches,
+  stalemate,
+  stalinist_One,
+  stardos_Stencil,
+  stick,
+  stick_No_Bills,
+  stint_Ultra_Condensed,
+  stint_Ultra_Expanded,
+  stoke,
+  strait,
+  style_Script,
+  stylish,
+  sue_Ellen_Francisco,
+  suez_One,
+  sulphur_Point,
+  sumana,
+  sunflower,
+  sunshiney,
+  supermercado_One,
+  sura,
+  suranna,
+  suravaram,
+  suwannaphum,
+
+
+
+
   teko,
   tektur,
   texturina,
@@ -2549,19 +2850,90 @@ export {
   tourney,
   trispace,
   truculenta,
+  tac_One,
+  tai_Heritage_Pro,
+  tajawal,
+  tangerine,
+  tapestry,
+  taprom,
+  tauri,
+  taviraj,
+  telex,
+  tenali_Ramakrishna,
+  tenor_Sans,
+  text_Me_One,
+  thasadith,
+  the_Girl_Next_Door,
+  the_Nautigal,
+  tienne,
+  tillana,
+  timmana,
+  tinos,
+  titan_One,
+  titillium_Web,
+  tomorrow,
+  trade_Winds,
+  train_One,
+  trirong,
+  trocchi,
+  trochut,
+  trykker,
+  tsukimi_Rounded,
+  tulpen_One,
+  turret_Road,
+  twinkle_Star,
   ubuntu,
   ubuntu_mono,
   unbounded,
   urbanist,
+  uchen,
+  ultra,
+  underdog,
+  unica_One,
+  uncial_Antiqua,
+  unkempt,
+  unifrakturCook,
+  unlock,
+  unna,
+  unifrakturMaguntia,
+  updock,
   varta,
   vazirmatn,
   victor_mono,
   vollkorn,
+  vampiro_One,
+  varela,
+  varela_Round,
+  vast_Shadow,
+  vesper_Libre,
+  viaoda_Libre,
+  vibes,
+  vibur,
+  vidaloka,
+  viga,
+  vina_Sans,
+  voces,
+  volkhov,
+  vollkorn_SC,
+  voltaire,
+  vujahday_Script,
   wavefont,
   wix_madefor_display,
   wix_madefor_text,
   work_sans,
   workbench,
+  waiting_for_the_sunrise,
+  wallpoet,
+  walter_Turncoat,
+  warnes,
+  water_brush,
+  waterfall,
+  wellfleet,
+  wendy_One,
+  whisper,
+  windSong,
+  wire_One,
+  xanh_Mono,
   yaldevi,
   yanone_kaffeesatz,
   yrsa,
@@ -2569,4 +2941,19 @@ export {
   ysabeau_infant,
   ysabeau_office,
   ysabeau_sc,
+  yantramanav,
+  yarndings_12,
+  yatra_One,
+  yellowtail,
+  yeon_Sung,
+  yeseva_One,
+  yesteryear,
+  yomogi,
+  young_Serif,
+  yuji_Boku,
+  yuji_Mai,
+  zen_Antique,
+  zeyada,
+  zhi_Mang_Xing,
+  zilla_Slab
 };
