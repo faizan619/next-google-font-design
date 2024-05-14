@@ -30,9 +30,7 @@ import {ABeeZee,ADLaM_Display,Abel,Abhaya_Libre,Aboreto,Abril_Fatface,Abyssinica
   Assistant,
   Azeret_Mono,
 } from "next/font/google";
-import {B612,Babylonica,Bacasime_Antique,Bad_Script,Bagel_Fat_One,Bahiana,Bahianita,Bai_Jamjuree,Bakbak_One,Balsamiq_Sans,Balthazar,Bangers,Barlow,Barlow_Condensed,Barriecito,Barrio,Basic,Baskervville,Battambang,Baumans,Bayon,Be_Vietnam_Pro,Beau_Rivage,Bebas_Neue,Belanosima,Belgrano,Bellefair,Belleza,Bellota,Bellota_Text,BenchNine,Benne,Bentham,Berkshire_Swash,Beth_Ellen,Bevan,BhuTuka_Expanded_One,Bigelow_Rules,Bigshot_One,Bilbo,BioRhyme,Birthstone,Birthstone_Bounce,Biryani,Black_And_White_Picture,Black_Han_Sans,Black_Ops_One,Blaka,Blaka_Hollow,Blaka_Ink,Blinker,Bokor,Bona_Nova,Bonbon,Bonheur_Royale,Boogaloo,Borel,Bowlby_One,Braah_One,Brawler,Bree_Serif,Bricolage_Grotesque,Bruno_Ace,Bruno_Ace_SC,Bubblegum_Sans,Bubbler_One,Buda,Buenard,Bungee,Bungee_Hairline,Butcherman,Butterfly_Kids} from "next/font/google"
-import {
-  Ballet,
+import {B612,Babylonica,Bacasime_Antique,Bad_Script,Bagel_Fat_One,Bahiana,Bahianita,Bai_Jamjuree,Bakbak_One,Balsamiq_Sans,Balthazar,Bangers,Barlow,Barlow_Condensed,Barriecito,Barrio,Basic,Baskervville,Battambang,Baumans,Bayon,Be_Vietnam_Pro,Beau_Rivage,Bebas_Neue,Belanosima,Belgrano,Bellefair,Belleza,Bellota,Bellota_Text,BenchNine,Benne,Bentham,Berkshire_Swash,Beth_Ellen,Bevan,BhuTuka_Expanded_One,Bigelow_Rules,Bigshot_One,Bilbo,BioRhyme,Birthstone,Birthstone_Bounce,Biryani,Black_And_White_Picture,Black_Han_Sans,Black_Ops_One,Blaka,Blaka_Hollow,Blaka_Ink,Blinker,Bokor,Bona_Nova,Bonbon,Bonheur_Royale,Boogaloo,Borel,Bowlby_One,Braah_One,Brawler,Bree_Serif,Bricolage_Grotesque,Bruno_Ace,Bruno_Ace_SC,Bubblegum_Sans,Bubbler_One,Buda,Buenard,Bungee,Bungee_Hairline,Butcherman,Butterfly_Kids,Ballet,
   Baloo_2,
   Baloo_Bhai_2,
   Baloo_Bhaijaan_2,
@@ -50,8 +48,9 @@ import {
   Big_Shoulders_Text,
   Bitter,
   Bodoni_Moda,
-  Brygada_1918,
-  Cabin,
+  Brygada_1918} from "next/font/google";
+
+import {Caesar_Dressing,Cagliostro,Caladea,Calistoga,Calligraffitti,Cambay,Cambo,Candal,Cantarell,Cantata_One,Caprasimo,Capriola,Caramel,Carattere,Cardo,Carlito,Carme,Carrois_Gothic,Carrois_Gothic_SC,Carter_One,Castoro,Castoro_Titling,Caudex,Cedarville_Cursive,Ceviche_One,Chakra_Petch,Changa_One,Chango,Charis_SIL,Charm,Charmonman,Chathura,Chau_Philomene_One,Chela_One,Chelsea_Market,Chenla,Cherish,Cherry_Bomb_One,Cherry_Cream_Soda,Cherry_Swash,Chewy,Chicle,Chilanka,Chokokutai,Chonburi,Clicker_Script,Coda,Codystar,Coiny,Combo,Comfortaa,Comforter,Comforter_Brush,Comic_Neue,Coming_Soon,Concert_One,Condiment,Content,Contrail_One,Convergence,Cookie,Copse,Corben,Corinthia,Cormorant_SC,Courgette,Courier_Prime,Cousine,Coustard,Covered_By_Your_Grace,Crafty_Girls,Creepster,Crete_Round,Crimson_Text,Croissant_One,Crushed,Cute_Font,Cutive,Cabin,
   Cairo,
   Cairo_Play,
   Catamaran,
@@ -65,13 +64,15 @@ import {
   Commissioner,
   Cormorant,
   Crimson_Pro,
-  Cuprum,
-  DM_Sans,
+  Cuprum} from "next/font/google";
+
+import {Dai_Banna_SIL,Damion,Dangrek,Darumadrop_One,David_Libre,Dawning_of_a_New_Day,Days_One,Dekko,Dela_Gothic_One,Delicious_Handrawn,Delius,Denk_One,Devonshire,Didact_Gothic,Diphylleia,Diplomata,Do_Hyeon,Dokdo,Donegal_One,Dongle,Doppio_One,Dorsa,DotGothic16,Dr_Sugiyama,Duru_Sans,DynaPuff,Dynalight,DM_Sans,
   Dancing_Script,
   Darker_Grotesque,
   Domine,
-  Dosis,
-  EB_Garamond,
+  Dosis} from "next/font/google";
+  
+  import {Eagle_Lake,East_Sea_Dokdo,Eater,Economica,El_Messiri,Electrolize,Elsie,Elsie_Swash_Caps,Emblema_One,Emilys_Candy,Engagement,Englebert,Enriqueta,Ephesis,Erica_One,Esteban,Estonia,Euphoria_Script,Ewert,Explora,EB_Garamond,
   Eczar,
   Edu_NSW_ACT_Foundation,
   Edu_QLD_Beginner,
@@ -83,8 +84,9 @@ import {
   Epilogue,
   Exo,
   Exo_2,
-  Expletus_Sans,
-  Familjen_Grotesk,
+  Expletus_Sans} from "next/font/google";
+  
+import {Fahkwang,Fanwood_Text,Farro,Farsan,Fascinate,Fascinate_Inline,Faster_One,Fasthand,Fauna_One,Federant,Federo,Felipa,Fenix,Festive,Fjalla_One,Fjord_One,Flamenco,Flavors,Fleur_De_Leah,Flow_Block,Flow_Circular,Flow_Rounded,Fondamento,Fontdiner_Swanky,Forum,Fragment_Mono,Francois_One,Freckle_Face,Fredericka_the_Great,Freehand,Fresca,Frijole,Fruktur,Fugaz_One,Fuggles,Fuzzy_Bubbles,Familjen_Grotesk,
   Faustina,
   Figtree,
   Finlandica,
@@ -93,9 +95,12 @@ import {
   Frank_Ruhl_Libre,
   Fraunces,
   Fredoka,
-  Gabarito,
-  Gantari,
-  Gelasio,
+  } from "next/font/google";
+  
+  
+  import {Gabriela,Gaegu,Gafata,Gajraj_One,Galada,Galdeano,Galindo,Gamja_Flower,Gasoek_One,Gayathri,Gentium_Book_Plus,Gentium_Plus,Geo,Geostar,Geostar_Fill,Germania_One,GFS_Didot,GFS_Neohellenic,Gideon_Roman,Gidugu,Gilda_Display,Girassol,Give_You_Glory,Glass_Antiqua,Glegoo,Gloock,Gloria_Hallelujah,Goblin_One,Gochi_Hand,Goldman,Gorditas,Gothic_A1,Gotu,Goudy_Bookletter_1911,Gowun_Batang,Graduate,Grand_Hotel,Grandiflora_One,Grape_Nuts,Gravitas_One,Great_Vibes,Grechen_Fuemen,Grenze,Grey_Qo,Griffy,Gruppo,Gudea,Gugi,Gulzar,Gupter,Gurajada,Gwendolyn,Gabarito,
+    Gantari,
+    Gelasio,
   Gemunu_Libre,
   Genos,
   Geologica,
@@ -104,20 +109,25 @@ import {
   Gluten,
   Golos_Text,
   Grandstander,
-  Grenze_Gotisch,
-  Hahmlet,
-  Handjet,
-  Hanken_Grotesk,
-  Hedvig_Letters_Serif,
-  Heebo,
-  Hepta_Slab,
-  Honk,
-  Ibarra_Real_Nova,
+  Grenze_Gotisch} from "next/font/google";
+  import {Habibi,Hachi_Maru_Pop,Halant,Hammersmith_One,Hanalei,Hanalei_Fill,Handlee,Hanuman,Happy_Monkey,Harmattan,Headland_One,Hedvig_Letters_Sans,Henny_Penny,Herr_Von_Muellerhoff,Hi_Melody,Hina_Mincho,Hind,Hind_Siliguri,Holtwood_One_SC,Homemade_Apple,Homenaje,Hubballi,Hahmlet,
+    Handjet,
+    Hanken_Grotesk,
+    Hedvig_Letters_Serif,
+    Heebo,
+    Hepta_Slab,
+    Honk,} from "next/font/google";
+    
+    
+import {Iceberg,Iceland,Imperial_Script,Imprima,Inclusive_Sans,Inder,Indie_Flower,Inika,Inknut_Antiqua,Inria_Sans,Inria_Serif,Inspiration,Instrument_Serif,Irish_Grover,Island_Moments,Istok_Web,Italiana,Italianno,Itim,Ibarra_Real_Nova,
   Imbue,
   Inconsolata,
   Instrument_Sans,
   Inter,
-  Inter_Tight,
+  Inter_Tight} from "next/font/google";
+    
+// abcdefghi jklmnopqrstuvwxyz
+import {
   JetBrains_Mono,
   Josefin_Sans,
   Josefin_Slab,
@@ -494,11 +504,125 @@ const commissioner = Commissioner({ preload: false });
 const cormorant = Cormorant({ preload: false });
 const crimson_pro = Crimson_Pro({ preload: false });
 const cuprum = Cuprum({ preload: false });
+
+const caesar_Dressing = Caesar_Dressing({ preload: false, weight: '400' });
+const cagliostro = Cagliostro({ preload: false, weight: '400' });
+const caladea = Caladea({ preload: false, weight: '400' });
+const calistoga = Calistoga({ preload: false, weight: '400' });
+const calligraffitti = Calligraffitti({ preload: false, weight: '400' });
+const cambay = Cambay({ preload: false, weight: '400' });
+const cambo = Cambo({ preload: false, weight: '400' });
+const candal = Candal({ preload: false, weight: '400' });
+const cantarell = Cantarell({ preload: false, weight: '400' });
+const cantata_One = Cantata_One({ preload: false, weight: '400' });
+const caprasimo = Caprasimo({ preload: false, weight: '400' });
+const capriola = Capriola({ preload: false, weight: '400' });
+const caramel = Caramel({ preload: false, weight: '400' });
+const carattere = Carattere({ preload: false, weight: '400' });
+const cardo = Cardo({ preload: false, weight: '400' });
+const carlito = Carlito({ preload: false, weight: '400' });
+const carme = Carme({ preload: false, weight: '400' });
+const carrois_Gothic = Carrois_Gothic({ preload: false, weight: '400' });
+const carrois_Gothic_SC = Carrois_Gothic_SC({ preload: false, weight: '400' });
+const carter_One = Carter_One({ preload: false, weight: '400' });
+const castoro = Castoro({ preload: false, weight: '400' });
+const castoro_Titling = Castoro_Titling({ preload: false, weight: '400' });
+const caudex = Caudex({ preload: false, weight: '400' });
+const cedarville_Cursive = Cedarville_Cursive({ preload: false, weight: '400' });
+const ceviche_One = Ceviche_One({ preload: false, weight: '400' });
+const chakra_Petch = Chakra_Petch({ preload: false, weight: '400' });
+const changa_One = Changa_One({ preload: false, weight: '400' });
+const chango = Chango({ preload: false, weight: '400' });
+const charis_SIL = Charis_SIL({ preload: false, weight: '400' });
+const charm = Charm({ preload: false, weight: '400' });
+const charmonman = Charmonman({ preload: false, weight: '400' });
+const chathura = Chathura({ preload: false, weight: '400' });
+const chau_Philomene_One = Chau_Philomene_One({ preload: false, weight: '400' });
+const chela_One = Chela_One({ preload: false, weight: '400' });
+const chelsea_Market = Chelsea_Market({ preload: false, weight: '400' });
+const chenla = Chenla({ preload: false, weight: '400' });
+const cherish = Cherish({ preload: false, weight: '400' });
+const cherry_Bomb_One = Cherry_Bomb_One({ preload: false, weight: '400' });
+const cherry_Cream_Soda = Cherry_Cream_Soda({ preload: false, weight: '400' });
+const cherry_Swash = Cherry_Swash({ preload: false, weight: '400' });
+const chewy = Chewy({ preload: false, weight: '400' });
+const chicle = Chicle({ preload: false, weight: '400' });
+const chilanka = Chilanka({ preload: false, weight: '400' });
+const chokokutai = Chokokutai({ preload: false, weight: '400' });
+const chonburi = Chonburi({ preload: false, weight: '400' });
+const clicker_Script = Clicker_Script({ preload: false, weight: '400' });
+const coda = Coda({ preload: false, weight: '400' });
+const codystar = Codystar({ preload: false, weight: '400' });
+const coiny = Coiny({ preload: false, weight: '400' });
+const combo = Combo({ preload: false, weight: '400' });
+const comfortaa = Comfortaa({ preload: false, weight: '400' });
+const comforter = Comforter({ preload: false, weight: '400' });
+const comforter_Brush = Comforter_Brush({ preload: false, weight: '400' });
+const comic_Neue = Comic_Neue({ preload: false, weight: '400' });
+const coming_Soon = Coming_Soon({ preload: false, weight: '400' });
+const concert_One = Concert_One({ preload: false, weight: '400' });
+const condiment = Condiment({ preload: false, weight: '400' });
+const content = Content({ preload: false, weight: '400' });
+const contrail_One = Contrail_One({ preload: false, weight: '400' });
+const convergence = Convergence({ preload: false, weight: '400' });
+const cookie = Cookie({ preload: false, weight: '400' });
+const copse = Copse({ preload: false, weight: '400' });
+const corben = Corben({ preload: false, weight: '400' });
+const corinthia = Corinthia({ preload: false, weight: '400' });
+const cormorant_SC = Cormorant_SC({ preload: false, weight: '400' });
+const courgette = Courgette({ preload: false, weight: '400' });
+const courier_Prime = Courier_Prime({ preload: false, weight: '400' });
+const cousine = Cousine({ preload: false, weight: '400' });
+const coustard = Coustard({ preload: false, weight: '400' });
+const covered_By_Your_Grace = Covered_By_Your_Grace({ preload: false, weight: '400' });
+const crafty_Girls = Crafty_Girls({ preload: false, weight: '400' });
+const creepster = Creepster({ preload: false, weight: '400' });
+const crete_Round = Crete_Round({ preload: false, weight: '400' });
+const crimson_Text = Crimson_Text({ preload: false, weight: '400' });
+const croissant_One = Croissant_One({ preload: false, weight: '400' });
+const crushed = Crushed({ preload: false, weight: '400' });
+const cute_Font = Cute_Font({ preload: false, weight: '400' });
+const cutive = Cutive({ preload: false, weight: '400' });
+
+
+
 const dm_sans = DM_Sans({ preload: false });
 const dancing_script = Dancing_Script({ preload: false });
 const darker_grotesque = Darker_Grotesque({ preload: false });
 const domine = Domine({ preload: false });
 const dosis = Dosis({ preload: false });
+
+
+const dai_Banna_SIL = Dai_Banna_SIL({ preload: false, weight: '400' });
+const damion = Damion({ preload: false, weight: '400' });
+const dangrek = Dangrek({ preload: false, weight: '400' });
+const darumadrop_One = Darumadrop_One({ preload: false, weight: '400' });
+const david_Libre = David_Libre({ preload: false, weight: '400' });
+const dawning_of_a_New_Day = Dawning_of_a_New_Day({ preload: false, weight: '400' });
+const days_One = Days_One({ preload: false, weight: '400' });
+const dekko = Dekko({ preload: false, weight: '400' });
+const dela_Gothic_One = Dela_Gothic_One({ preload: false, weight: '400' });
+const delicious_Handrawn = Delicious_Handrawn({ preload: false, weight: '400' });
+const delius = Delius({ preload: false, weight: '400' });
+const denk_One = Denk_One({ preload: false, weight: '400' });
+const devonshire = Devonshire({ preload: false, weight: '400' });
+const didact_Gothic = Didact_Gothic({ preload: false, weight: '400' });
+const diphylleia = Diphylleia({ preload: false, weight: '400' });
+const diplomata = Diplomata({ preload: false, weight: '400' });
+const do_Hyeon = Do_Hyeon({ preload: false, weight: '400' });
+const dokdo = Dokdo({ preload: false, weight: '400' });
+const donegal_One = Donegal_One({ preload: false, weight: '400' });
+const dongle = Dongle({ preload: false, weight: '400' });
+const doppio_One = Doppio_One({ preload: false, weight: '400' });
+const dorsa = Dorsa({ preload: false, weight: '400' });
+const dotGothic16 = DotGothic16({ preload: false, weight: '400' });
+const dr_Sugiyama = Dr_Sugiyama({ preload: false, weight: '400' });
+const duru_Sans = Duru_Sans({ preload: false, weight: '400' });
+const dynaPuff = DynaPuff({ preload: false, weight: '400' });
+const dynalight = Dynalight({ preload: false, weight: '400' });
+
+
+
 const eb_garamond = EB_Garamond({ preload: false });
 const eczar = Eczar({ preload: false });
 const edu_nsw_act_foundation = Edu_NSW_ACT_Foundation({ preload: false });
@@ -512,6 +636,33 @@ const epilogue = Epilogue({ preload: false });
 const exo = Exo({ preload: false });
 const exo_2 = Exo_2({ preload: false });
 const expletus_sans = Expletus_Sans({ preload: false });
+
+
+const eagle_Lake = Eagle_Lake({ preload: false, weight: '400' });
+const east_Sea_Dokdo = East_Sea_Dokdo({ preload: false, weight: '400' });
+const eater = Eater({ preload: false, weight: '400' });
+const economica = Economica({ preload: false, weight: '400' });
+const el_Messiri = El_Messiri({ preload: false, weight: '400' });
+const electrolize = Electrolize({ preload: false, weight: '400' });
+const elsie = Elsie({ preload: false, weight: '400' });
+const elsie_Swash_Caps = Elsie_Swash_Caps({ preload: false, weight: '400' });
+const emblema_One = Emblema_One({ preload: false, weight: '400' });
+const emilys_Candy = Emilys_Candy({ preload: false, weight: '400' });
+const engagement = Engagement({ preload: false, weight: '400' });
+const englebert = Englebert({ preload: false, weight: '400' });
+const enriqueta = Enriqueta({ preload: false, weight: '400' });
+const ephesis = Ephesis({ preload: false, weight: '400' });
+const erica_One = Erica_One({ preload: false, weight: '400' });
+const esteban = Esteban({ preload: false, weight: '400' });
+const estonia = Estonia({ preload: false, weight: '400' });
+const euphoria_Script = Euphoria_Script({ preload: false, weight: '400' });
+const ewert = Ewert({ preload: false, weight: '400' });
+const explora = Explora({ preload: false, weight: '400' });
+
+
+
+
+
 const familjen_grotesk = Familjen_Grotesk({ preload: false });
 const faustina = Faustina({ preload: false });
 const figtree = Figtree({ preload: false });
@@ -521,6 +672,50 @@ const foldit = Foldit({ preload: false });
 const frank_ruhl_libre = Frank_Ruhl_Libre({ preload: false });
 const fraunces = Fraunces({ preload: false });
 const fredoka = Fredoka({ preload: false });
+
+
+
+const fahkwang = Fahkwang({ preload: false, weight: '400' });
+const fanwood_Text = Fanwood_Text({ preload: false, weight: '400' });
+const farro = Farro({ preload: false, weight: '400' });
+const farsan = Farsan({ preload: false, weight: '400' });
+const fascinate = Fascinate({ preload: false, weight: '400' });
+const fascinate_Inline = Fascinate_Inline({ preload: false, weight: '400' });
+const faster_One = Faster_One({ preload: false, weight: '400' });
+const fasthand = Fasthand({ preload: false, weight: '400' });
+const fauna_One = Fauna_One({ preload: false, weight: '400' });
+const federant = Federant({ preload: false, weight: '400' });
+const federo = Federo({ preload: false, weight: '400' });
+const felipa = Felipa({ preload: false, weight: '400' });
+const fenix = Fenix({ preload: false, weight: '400' });
+const festive = Festive({ preload: false, weight: '400' });
+const fjalla_One = Fjalla_One({ preload: false, weight: '400' });
+const fjord_One = Fjord_One({ preload: false, weight: '400' });
+const flamenco = Flamenco({ preload: false, weight: '400' });
+const flavors = Flavors({ preload: false, weight: '400' });
+const fleur_De_Leah = Fleur_De_Leah({ preload: false, weight: '400' });
+const flow_Block = Flow_Block({ preload: false, weight: '400' });
+const flow_Circular = Flow_Circular({ preload: false, weight: '400' });
+const flow_Rounded = Flow_Rounded({ preload: false, weight: '400' });
+const fondamento = Fondamento({ preload: false, weight: '400' });
+const fontdiner_Swanky = Fontdiner_Swanky({ preload: false, weight: '400' });
+const forum = Forum({ preload: false, weight: '400' });
+const fugaz_One = Fugaz_One({ preload: false, weight: '400' });
+const fuggles = Fuggles({ preload: false, weight: '400' });
+const fuzzy_Bubbles = Fuzzy_Bubbles({ preload: false, weight: '400' });
+const fragment_Mono = Fragment_Mono({ preload: false, weight: '400' });
+const francois_One = Francois_One({ preload: false, weight: '400' });
+const freckle_Face = Freckle_Face({ preload: false, weight: '400' });
+const fredericka_the_Great = Fredericka_the_Great({ preload: false, weight: '400' });
+const freehand = Freehand({ preload: false, weight: '400' });
+const fresca = Fresca({ preload: false, weight: '400' });
+const frijole = Frijole({ preload: false, weight: '400' });
+const fruktur = Fruktur({ preload: false, weight: '400' });
+
+
+
+
+
 const gabarito = Gabarito({ preload: false });
 const gantari = Gantari({ preload: false });
 const gelasio = Gelasio({ preload: false });
@@ -533,6 +728,65 @@ const gluten = Gluten({ preload: false });
 const golos_text = Golos_Text({ preload: false });
 const grandstander = Grandstander({ preload: false });
 const grenze_gotisch = Grenze_Gotisch({ preload: false });
+
+
+const gabriela = Gabriela({ preload: false, weight: '400' });
+const gaegu = Gaegu({ preload: false, weight: '400' });
+const gafata = Gafata({ preload: false, weight: '400' });
+const gajraj_One = Gajraj_One({ preload: false, weight: '400' });
+const galada = Galada({ preload: false, weight: '400' });
+const galdeano = Galdeano({ preload: false, weight: '400' });
+const galindo = Galindo({ preload: false, weight: '400' });
+const gamja_Flower = Gamja_Flower({ preload: false, weight: '400' });
+const gasoek_One = Gasoek_One({ preload: false, weight: '400' });
+const gayathri = Gayathri({ preload: false, weight: '400' });
+const gentium_Book_Plus = Gentium_Book_Plus({ preload: false, weight: '400' });
+const gentium_Plus = Gentium_Plus({ preload: false, weight: '400' });
+const geo = Geo({ preload: false, weight: '400' });
+const geostar = Geostar({ preload: false, weight: '400' });
+const geostar_Fill = Geostar_Fill({ preload: false, weight: '400' });
+const germania_One = Germania_One({ preload: false, weight: '400' });
+const gfs_Didot = GFS_Didot({ preload: false, weight: '400' });
+const gfs_Neohellenic = GFS_Neohellenic({ preload: false, weight: '400' });
+const gideon_Roman = Gideon_Roman({ preload: false, weight: '400' });
+const gidugu = Gidugu({ preload: false, weight: '400' });
+const gilda_Display = Gilda_Display({ preload: false, weight: '400' });
+const girassol = Girassol({ preload: false, weight: '400' });
+const give_You_Glory = Give_You_Glory({ preload: false, weight: '400' });
+const glass_Antiqua = Glass_Antiqua({ preload: false, weight: '400' });
+const glegoo = Glegoo({ preload: false, weight: '400' });
+const gloock = Gloock({ preload: false, weight: '400' });
+const gloria_Hallelujah = Gloria_Hallelujah({ preload: false, weight: '400' });
+const goblin_One = Goblin_One({ preload: false, weight: '400' });
+const gochi_Hand = Gochi_Hand({ preload: false, weight: '400' });
+const goldman = Goldman({ preload: false, weight: '400' });
+const gorditas = Gorditas({ preload: false, weight: '400' });
+const gothic_A1 = Gothic_A1({ preload: false, weight: '400' });
+const gotu = Gotu({ preload: false, weight: '400' });
+const goudy_Bookletter_1911 = Goudy_Bookletter_1911({ preload: false, weight: '400' });
+const gowun_Batang = Gowun_Batang({ preload: false, weight: '400' });
+const graduate = Graduate({ preload: false, weight: '400' });
+const grand_Hotel = Grand_Hotel({ preload: false, weight: '400' });
+const grandiflora_One = Grandiflora_One({ preload: false, weight: '400' });
+const grape_Nuts = Grape_Nuts({ preload: false, weight: '400' });
+const gravitas_One = Gravitas_One({ preload: false, weight: '400' });
+const great_Vibes = Great_Vibes({ preload: false, weight: '400' });
+const grechen_Fuemen = Grechen_Fuemen({ preload: false, weight: '400' });
+const grenze = Grenze({ preload: false, weight: '400' });
+const grey_Qo = Grey_Qo({ preload: false, weight: '400' });
+const griffy = Griffy({ preload: false, weight: '400' });
+const gruppo = Gruppo({ preload: false, weight: '400' });
+const gudea = Gudea({ preload: false, weight: '400' });
+const gugi = Gugi({ preload: false, weight: '400' });
+const gulzar = Gulzar({ preload: false, weight: '400' });
+const gupter = Gupter({ preload: false, weight: '400' });
+const gurajada = Gurajada({ preload: false, weight: '400' });
+const gwendolyn = Gwendolyn({ preload: false, weight: '400' });
+
+
+
+
+
 const hahmlet = Hahmlet({ preload: false });
 const handjet = Handjet({ preload: false });
 const hanken_grotesk = Hanken_Grotesk({ preload: false });
@@ -540,12 +794,63 @@ const hedvig_letters_serif = Hedvig_Letters_Serif({ preload: false });
 const heebo = Heebo({ preload: false });
 const hepta_slab = Hepta_Slab({ preload: false });
 const honk = Honk({ preload: false });
+
+
+const habibi = Habibi({ preload: false, weight: '400' });
+const hachi_Maru_Pop = Hachi_Maru_Pop({ preload: false, weight: '400' });
+const halant = Halant({ preload: false, weight: '400' });
+const hammersmith_One = Hammersmith_One({ preload: false, weight: '400' });
+const hanalei = Hanalei({ preload: false, weight: '400' });
+const hanalei_Fill = Hanalei_Fill({ preload: false, weight: '400' });
+const handlee = Handlee({ preload: false, weight: '400' });
+const hanuman = Hanuman({ preload: false, weight: '400' });
+const happy_Monkey = Happy_Monkey({ preload: false, weight: '400' });
+const harmattan = Harmattan({ preload: false, weight: '400' });
+const headland_One = Headland_One({ preload: false, weight: '400' });
+const hedvig_Letters_Sans = Hedvig_Letters_Sans({ preload: false, weight: '400' });
+const henny_Penny = Henny_Penny({ preload: false, weight: '400' });
+const herr_Von_Muellerhoff = Herr_Von_Muellerhoff({ preload: false, weight: '400' });
+const hi_Melody = Hi_Melody({ preload: false, weight: '400' });
+const hina_Mincho = Hina_Mincho({ preload: false, weight: '400' });
+const hind = Hind({ preload: false, weight: '400' });
+const hind_Siliguri = Hind_Siliguri({ preload: false, weight: '400' });
+const holtwood_One_SC = Holtwood_One_SC({ preload: false, weight: '400' });
+const homemade_Apple = Homemade_Apple({ preload: false, weight: '400' });
+const homenaje = Homenaje({ preload: false, weight: '400' });
+const hubballi = Hubballi({ preload: false, weight: '400' });
+
+
+
+
 const ibarra_real_nova = Ibarra_Real_Nova({ preload: false });
 const imbue = Imbue({ preload: false });
 const inconsolata = Inconsolata({ preload: false });
 const instrument_sans = Instrument_Sans({ preload: false });
 const inter = Inter({ preload: false });
 const inter_tight = Inter_Tight({ preload: false });
+
+
+const iceberg = Iceberg({ preload: false, weight: '400' });
+const iceland = Iceland({ preload: false, weight: '400' });
+const imperial_Script = Imperial_Script({ preload: false, weight: '400' });
+const imprima = Imprima({ preload: false, weight: '400' });
+const inclusive_Sans = Inclusive_Sans({ preload: false, weight: '400' });
+const inder = Inder({ preload: false, weight: '400' });
+const indie_Flower = Indie_Flower({ preload: false, weight: '400' });
+const inika = Inika({ preload: false, weight: '400' });
+const inknut_Antiqua = Inknut_Antiqua({ preload: false, weight: '400' });
+const inria_Sans = Inria_Sans({ preload: false, weight: '400' });
+const inria_Serif = Inria_Serif({ preload: false, weight: '400' });
+const inspiration = Inspiration({ preload: false, weight: '400' });
+const instrument_Serif = Instrument_Serif({ preload: false, weight: '400' });
+const irish_Grover = Irish_Grover({ preload: false, weight: '400' });
+const island_Moments = Island_Moments({ preload: false, weight: '400' });
+const istok_Web = Istok_Web({ preload: false, weight: '400' });
+const italiana = Italiana({ preload: false, weight: '400' });
+const italianno = Italianno({ preload: false, weight: '400' });
+const itim = Itim({ preload: false, weight: '400' });
+
+
 const jetbrains_mono = JetBrains_Mono({ preload: false });
 const josefin_sans = Josefin_Sans({ preload: false });
 const josefin_slab = Josefin_Slab({ preload: false });
@@ -911,7 +1216,6 @@ export {
   cairo_play,
   catamaran,
   caveat,
-  changa,
   chivo,
   chivo_mono,
   cinzel,
@@ -921,11 +1225,129 @@ export {
   cormorant,
   crimson_pro,
   cuprum,
+
+
+  caesar_Dressing,
+  cagliostro,
+  caladea,
+  calistoga,
+  calligraffitti,
+  cambay,
+  cambo,
+  candal,
+  cantarell,
+  cantata_One,
+  caprasimo,
+  capriola,
+  caramel,
+  carattere,
+  cardo,
+  carlito,
+  carme,
+  carrois_Gothic,
+  carrois_Gothic_SC,
+  carter_One,
+  castoro,
+  castoro_Titling,
+  caudex,
+  cedarville_Cursive,
+  ceviche_One,
+  chakra_Petch,
+  changa,
+  changa_One,
+  chango,
+  charis_SIL,
+  charm,
+  charmonman,
+  chathura,
+  chau_Philomene_One,
+  chela_One,
+  chelsea_Market,
+  chenla,
+  cherish,
+  cherry_Bomb_One,
+  cherry_Cream_Soda,
+  cherry_Swash,
+  chewy,
+  chicle,
+  chilanka,
+  chokokutai,
+  chonburi,
+  clicker_Script,
+  coda,
+  codystar,
+  coiny,
+  combo,
+  comfortaa,
+  comforter,
+  comforter_Brush,
+  comic_Neue,
+  coming_Soon,
+  concert_One,
+  condiment,
+  content,
+  contrail_One,
+  convergence,
+  cookie,
+  copse,
+  corben,
+  corinthia,
+  cormorant_SC,
+  courgette,
+  courier_Prime,
+  cousine,
+  coustard,
+  covered_By_Your_Grace,
+  crafty_Girls,
+  creepster,
+  crete_Round,
+  crimson_Text,
+  croissant_One,
+  crushed,
+  cute_Font,
+  cutive,
+
+
+
   dm_sans,
   dancing_script,
   darker_grotesque,
   domine,
   dosis,
+
+
+  dai_Banna_SIL,
+  damion,
+  dangrek,
+  darumadrop_One,
+  david_Libre,
+  dawning_of_a_New_Day,
+  days_One,
+  dekko,
+  dela_Gothic_One,
+  delicious_Handrawn,
+  delius,
+  denk_One,
+  devonshire,
+  didact_Gothic,
+  diphylleia,
+  diplomata,
+  do_Hyeon,
+  dokdo,
+  donegal_One,
+  dongle,
+  doppio_One,
+  dorsa,
+  dotGothic16,
+  dr_Sugiyama,
+  duru_Sans,
+  dynaPuff,
+  dynalight,
+
+
+
+
+
   eb_garamond,
   eczar,
   edu_nsw_act_foundation,
@@ -939,6 +1361,31 @@ export {
   exo,
   exo_2,
   expletus_sans,
+
+
+  eagle_Lake,
+  east_Sea_Dokdo,
+  eater,
+  economica,
+  el_Messiri,
+  electrolize,
+  elsie,
+  elsie_Swash_Caps,
+  emblema_One,
+  emilys_Candy,
+  engagement,
+  englebert,
+  enriqueta,
+  ephesis,
+  erica_One,
+  esteban,
+  estonia,
+  euphoria_Script,
+  ewert,
+  explora,
+
+
+
   familjen_grotesk,
   faustina,
   figtree,
@@ -948,6 +1395,46 @@ export {
   frank_ruhl_libre,
   fraunces,
   fredoka,
+
+  fahkwang,
+  fanwood_Text,
+  farro,
+  farsan,
+  fascinate,
+  fascinate_Inline,
+  faster_One,
+  fasthand,
+  fauna_One,
+  federant,
+  federo,
+  felipa,
+  fenix,
+  festive,
+  fjalla_One,
+  fjord_One,
+  flamenco,
+  flavors,
+  fleur_De_Leah,
+  flow_Block,
+  flow_Circular,
+  flow_Rounded,
+  fondamento,
+  fontdiner_Swanky,
+  forum,
+  fugaz_One,
+  fuggles,
+  fuzzy_Bubbles,
+  fragment_Mono,
+  francois_One,
+  freckle_Face,
+  fredericka_the_Great,
+  freehand,
+  fresca,
+  frijole,
+  fruktur,
+
+
+
   gabarito,
   gantari,
   gelasio,
@@ -960,6 +1447,63 @@ export {
   golos_text,
   grandstander,
   grenze_gotisch,
+
+
+  gabriela,
+  gaegu,
+  gafata,
+  gajraj_One,
+  galada,
+  galdeano,
+  galindo,
+  gamja_Flower,
+  gasoek_One,
+  gayathri,
+  gentium_Book_Plus,
+  gentium_Plus,
+  geo,
+  geostar,
+  geostar_Fill,
+  germania_One,
+  gfs_Didot,
+  gfs_Neohellenic,
+  gideon_Roman,
+  gidugu,
+  gilda_Display,
+  girassol,
+  give_You_Glory,
+  glass_Antiqua,
+  glegoo,
+  gloock,
+  gloria_Hallelujah,
+  goblin_One,
+  gochi_Hand,
+  goldman,
+  gorditas,
+  gothic_A1,
+  gotu,
+  goudy_Bookletter_1911,
+  gowun_Batang,
+  graduate,
+  grand_Hotel,
+  grandiflora_One,
+  grape_Nuts,
+  gravitas_One,
+  great_Vibes,
+  grechen_Fuemen,
+  grenze,
+  grey_Qo,
+  griffy,
+  gruppo,
+  gudea,
+  gugi,
+  gulzar,
+  gupter,
+  gurajada,
+  gwendolyn,
+
+
+
   hahmlet,
   handjet,
   hanken_grotesk,
@@ -967,12 +1511,62 @@ export {
   heebo,
   hepta_slab,
   honk,
+
+
+  habibi,
+  hachi_Maru_Pop,
+  halant,
+  hammersmith_One,
+  hanalei,
+  hanalei_Fill,
+  handlee,
+  hanuman,
+  happy_Monkey,
+  harmattan,
+  headland_One,
+  hedvig_Letters_Sans,
+  henny_Penny,
+  herr_Von_Muellerhoff,
+  hi_Melody,
+  hina_Mincho,
+  hind,
+  hind_Siliguri,
+  holtwood_One_SC,
+  homemade_Apple,
+  homenaje,
+  hubballi,
+
+
+
+
   ibarra_real_nova,
   imbue,
   inconsolata,
   instrument_sans,
   inter,
   inter_tight,
+
+  iceberg,
+  iceland,
+  imperial_Script,
+  imprima,
+  inclusive_Sans,
+  inder,
+  indie_Flower,
+  inika,
+  inknut_Antiqua,
+  inria_Sans,
+  inria_Serif,
+  inspiration,
+  instrument_Serif,
+  irish_Grover,
+  island_Moments,
+  istok_Web,
+  italiana,
+  italianno,
+  itim,
+
+
   jetbrains_mono,
   josefin_sans,
   josefin_slab,
