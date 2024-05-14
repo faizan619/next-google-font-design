@@ -39,8 +39,8 @@ export default function Home() {
   return (
     <>
       <div className="min-h-screen flex justify-center items-center flex-col gap-5 p-5 pt-24">
-        <div className="border w-[93%] md:w-[85%] bg-gray-100 p-2 md:p-5 rounded-md shadow-sm shadow-gray-600 fixed top-1 z-50 flex justify-between items-center">
-          <label className="flex justify-center text-sm sm:text-xl  items-center gap-3 p-1 sm:p-3 rounded-md">
+        <div className="border w-[93%] md:w-[85%] bg-gray-100 p-2 md:p-2 rounded-md shadow-sm shadow-gray-600 fixed top-1 z-50 flex justify-between items-center">
+          <label className="flex justify-center text-sm sm:text-xl  items-center gap-3 p-1 sm:p-2 rounded-md">
             <p>Select Alphabet : </p>
             <select value={selectOption} className="sm:p-2" onChange={handleOptionChange}>
               <option value="A">A</option>
