@@ -1,8 +1,7 @@
 "use client";
-// Demo.js
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { fontName } from "@/app/style/font_variable";
+import * as fontNames from "@/app/style/font_variable";
 
 export default function Page() {
   const searchParams = useSearchParams();
@@ -13,28 +12,17 @@ export default function Page() {
     const fontParam = searchParams.get('font');
     if(fontParam){
         setFont(fontParam);
-        const fontDetails = fontName[fontParam];
+        var word = fontParam;
+        let first_letter = word.charAt(0);
+        const dynamicKey = first_letter.toUpperCase(); 
+
+
+        // const fontDetails = fontNames.P[fontParam];
+        const fontDetails = fontNames[dynamicKey][fontParam];
         setFontDetails(fontDetails)
     }
   },[searchParams])
 
-//   useEffect(() => {
-//     // const fontParam = searchParams.get("font");
-//     // if (fontParam) {
-//     //   setFont(fontParam);
-//     //   const fontDetails = fontName[fontParam];
-//     //   setFontDetails(fontDetails);
-//     // }
-//     // const searchParams = useSearchParams();
-//     const font = searchParams.get('font');
-//     const fontDetails = fontName[font];
-//     if(fontDetails){
-//         setFontDetails(fontDetails);
-//     }
-//     else{
-//         alert("Failed to find Font")
-//     }
-//   }, [searchParams]);
 
   const alphabet = [
     "a",
